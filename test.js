@@ -1,31 +1,15 @@
-// function greeter(person:string) {
-//     return "Hell," + person
-// }
-// let user = [0,1,2];
-// document.body.innerHTML = greeter(user);
-//인터페이스
-// interface Person {
-//     firstName : string;
-//     lastName : string;
-// }
-// function greeter(person:Person) {
-//     return "Hello," + person.firstName + ""+person.lastName;
-// }
-// let user = {firstName: "Jane", lastName:"User"};
-// document.body.innerHTML = greeter(user);
-//Class 상속
-// class Student {
-//     fullname: string;
-//     constructor(public firstName: string, public middleInitial: string, public lastName: string) {
-//         this.fullname = firstName + "" + middleInitial + "" + lastName;
-//     }
-// }
-// interface Person {
-//     firstName: string;
-//     lastName: string;
-// }
-// function greeter(person: Person) {
-//     return "Hello, " + person.firstName + "" + person.lastName;
-// }
-// let user = new Student("Jane", "M.","User");
-// document.body.innerHTML= greeter(user);
+//기본타입
+//불리언
+var isType = true;
+//숫자
+var score = 100;
+//문자열
+var named = '차니';
+//Null Undefined
+var nullValue = null;
+var unValue = undefined;
+//배열
+var arrNum = [0, 1, 2, 3, 4, 5];
+var arrString = ["바나나", "귤", "사과"];
+//튜플
+var tpArray = ["바나나", 1];

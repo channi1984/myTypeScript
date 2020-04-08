@@ -1,54 +1,27 @@
-// //인터페이스
+//기본타입
 
-// interface Person {
-//     firstName : string;
-//     lastName : string;
-// }
+//불리언
 
-// function greeter(person:Person) {
-//     return "Hello," + person.firstName + ""+person.lastName;
-// }
+const isType: boolean = true;
 
-// let user = {firstName: "Jane", lastName:"User"};
+//숫자
 
-// document.body.innerHTML = greeter(user);
+const score: number = 100;
 
-// //Class 상속
+//문자열
 
-// class Student {
-//     fullname: string;
-//     constructor(public firstName: string, public middleInitial: string, public lastName: string) {
-//         this.fullname = firstName + "" + middleInitial + "" + lastName;
-//     }
-// }
+const named: string = '차니';
 
-// interface Person {
-//     firstName: string;
-//     lastName: string;
-// }
+//Null Undefined
 
-// function greeter(person: Person) {
-//     return "Hello, " + person.firstName + "" + person.lastName;
-// }
+const nullValue: null = null;
+const unValue: undefined = undefined;
 
-// let user = new Student("Jane", "M.","User");
+//배열
 
-// document.body.innerHTML= greeter(user);
+const arrNum: number[] = [0, 1, 2, 3, 4, 5];
+const arrString: string[] = ["바나나", "귤", "사과"];
 
-// //Boolean
-// let isDone: boolean = false;
+//튜플
 
-// //Number
-// let decimal: number = 6;
-// let hex: number = 0xf00d;
-// let binary: number = 0b1010;
-// let octal: number = 0o744;
-
-// //String
-// let fullname: string = 'Bob Bobbignton';
-// let age: number = 37;
-// let sectece: string = `Hello, my name is ${fullname}. i'll be ${age + 1} years old next month`;
-
-// //Array
-// let list: number[] = [1,2,3];
-// let list: Array<number> = [1,2,3];
+const tpArray: [string, number] = ["바나나", 1];
