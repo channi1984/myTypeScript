@@ -1,5 +1,5 @@
 //기본타입
-
+//테스트
 //불리언
 
 const isType: boolean = true;
